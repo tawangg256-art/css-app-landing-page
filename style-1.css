@@ -1,0 +1,101 @@
+/* Start coding here */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E0E0ED;
+}
+.container{
+    padding: 24px;
+    gap: 10px;
+}
+h2 {
+    position: relative; 
+    display: inline-block; 
+}
+
+.dot {
+    position: absolute; 
+    top: 4px;
+    right: -12px;
+    
+    width: 8px;
+    height: 8px;
+    background-color: #5E44FF;
+    border-radius: 50%;
+}
+
+#Title{
+    font-size: 24px;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 80px 12px 80px;
+    border-radius: 99px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    gap: 24px;
+}
+
+.rainbow{
+    background-color: #563AFF1A;
+    padding: 8px 20px;
+    border-radius: 999px;
+    color: purple;
+    width: 236px;
+    height: 40px;
+    gap: 16px;
+}
+
+
+.start-button{
+    background-color: black;
+    color: white;
+    width: 187px;
+    height: 56px;
+    padding: 16px 36px;
+    gap: 6px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+.Boost{
+    font-size: 80px;
+}
+
+.Stream{
+    font-size: 24px;
+}
+
+#Home:hover{
+    color: #5E44FF;
+    text-decoration: underline;
+}
+
+.text-purple{
+    color: #5E44FF;
+}
