@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F6F6FB;
+    padding: 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+  
+.features-container {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+}
+  
+.box {
+    display: flex;
+    width: 387px;
+    height: 272px;
+    border-radius: 24px;
+    padding: 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+  
+.Streamlined-box {
+    background-color: #D7E5F6;
+}
+  
+.Blazing-box {
+    background-color: #d8e0fc;
+}
+  
+.Intuitive-box {
+    background-color: #E8DCF6;
+}
+  
+.icon {
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+  
+.icon img {
+    color: #5E44FF;
+    width: 28px; 
+    height: 28px;
+}
+  
+.card-title {
+    color: #1A1A2C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+  
+.card-description {
+    color: #5F5F76;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
